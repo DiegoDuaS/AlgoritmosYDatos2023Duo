@@ -1,9 +1,14 @@
+/**
+* Tarea: Hoja de trabajo 8
+* Autores: Sofia Garcia, Diego Duarte
+* Fecha: 02/04/2023
+*/
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class Controller {
     View vista = new View();
-    boolean start = true;
     Priorityqueue<Process> priorityqueue;
 
    
@@ -29,7 +34,7 @@ public class Controller {
     
     /**
      * @param priorityQueue
-     * crea el vecto al leer el archivo 
+     * crea el priority queue al leer el archivo 
      */
     public static void createVector(Priorityqueue priorityQueue, String dirección){
         FileReader ar;

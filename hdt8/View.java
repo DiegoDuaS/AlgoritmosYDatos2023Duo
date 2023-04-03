@@ -1,3 +1,9 @@
+/**
+* Tarea: Hoja de trabajo 8
+* Autores: Sofia Garcia, Diego Duarte
+* Fecha: 02/04/2023
+*/
+
 import java.util.Scanner;
 
 public class View {
