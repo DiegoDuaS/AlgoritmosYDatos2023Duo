@@ -5,7 +5,7 @@
 */
 
 public class Process implements Comparable<Process>{
-    String process = "";
+    String process;
     String username;
     int nice = 0; 
     int priority;
@@ -49,4 +49,9 @@ public class Process implements Comparable<Process>{
         return this.getPriority().compareTo(o.getPriority());
     }
     
+    public String toString(){
+        StringBuffer s = new StringBuffer();
+        s.append("\n\nProceso: "+getProcess()+"\nNombre de usuario: "+getUsername()+"\nValor nice: "+getNice()+"\nPrioridad: "+getPriority());
+        return s.toString();
+    }
 }
